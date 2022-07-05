@@ -6,8 +6,8 @@
   "author": "Yusuf Ali Karaca",
   "license": "MIT",
   "private": false,
-
   "dependencies": {
+    "express": "^4.18.1",
     "global": "^4.4.0",
     "nodemon": "^2.0.18"
   },
