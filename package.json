@@ -6,7 +6,7 @@
   "author": "Yusuf Ali Karaca",
   "license": "MIT",
   "private": false,
-  "type": "module",
+
   "dependencies": {
     "global": "^4.4.0",
     "nodemon": "^2.0.18"
