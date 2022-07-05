@@ -1,0 +1,61 @@
+<html lang="tr-en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Yusuf Karaca</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <header>
+      <img src="./images/takuya.jpg" alt="" />
+      <h1 class="typ"></h1>
+    </header>
+    <main>
+      <ul>
+        <li>
+          <a href="https://www.youtube.com/channel/UC-LNoIHiivIeAHGY14Jw-Jw">
+            <img src="images/youtube.svg" width="30" />
+            Youtube</a
+          >
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/twitter.svg" width="30" />
+            Twitter</a
+          >
+        </li>
+        <li>
+          <a href="https://www.instagram.com/javascriptyusuf/">
+            <img src="images/instagram_.svg" width="30" />
+
+            Instagram</a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/xfxpositions">
+            <img src="images/github.svg" width="30" />
+
+            Github</a
+          >
+        </li>
+      </ul>
+    </main>
+    <script src="js/lib/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+      var options = {
+        strings: ["^100Yusuf Karaca - ^400Full Stack Developer"],
+        typeSpeed: 25,
+      };
+
+      var typed = new Typed(".typ", options);
+      const main = document.querySelector("main");
+      setTimeout(() => {
+        main.style.opacity = 1;
+        main.style.filter = "blur(0px)";
+      }, 2500);
+    </script>
+  </body>
+</html>

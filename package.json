@@ -1,0 +1,17 @@
+{
+  "name": "profitolio",
+  "version": "1.0.0",
+  "description": "a simple profitolio",
+  "main": "index.js",
+  "author": "Yusuf Ali Karaca",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "dependencies": {
+    "global": "^4.4.0",
+    "nodemon": "^2.0.18"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
